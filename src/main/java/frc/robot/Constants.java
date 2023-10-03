@@ -17,7 +17,6 @@ public final class Constants {
 
 
 //joystick constants
-
 public static final int DriverControllerPort = 0;
 
 //intake constants
