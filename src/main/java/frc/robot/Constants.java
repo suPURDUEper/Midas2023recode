@@ -16,20 +16,40 @@ package frc.robot;
 public final class Constants {
 
 
-public static final int intakeMotor = 0;
-public static final double intakeCenterPower = 1.0;
+//joystick constants
+
 public static final int DriverControllerPort = 0;
-public static double intakePower = 1.0;
+
+//intake constants
+public static final int intakeMotor = 0;
 public static int intakeCenter = 5;
-public static int intakeCenterLimit = 20;
-public static double purgePower = -1.0;
-public static int indexer1Limit = 20;
 public static int indexer1 = 6;
+public static int pooperMotor = 1;
+
+public static double intakePower = 1.0;
+public static double intakeCenterPower = 1.0;
 public static double indexer1Power = 1.0;
+public static double pooperpower = 1.0;
+public static double pooperpurgePower = -1.0;
+public static double intakepurgePower = -1.0;
+public static double indexer1purgePower = -1.0;
+
+public static int intakeCenterLimit = 20;
+public static int indexer1Limit = 20;
+
+
+
+
+
+//drivetrain constants
 public static int leftLead = 1;
 public static int leftFollow = 2;
 public static int rightLead = 3;
 public static int rightFollow = 4;
+
 public static int drivetrainLimit = 60;
-public static int pooperMotor = 1;
+
+
+
+
 }

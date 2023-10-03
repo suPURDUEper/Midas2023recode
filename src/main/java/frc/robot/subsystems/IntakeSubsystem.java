@@ -56,14 +56,16 @@ public class IntakeSubsystem extends SubsystemBase {
     intakeMotor.set(Constants.intakePower);
     intakeCenter.set(Constants.intakeCenterPower);
     indexer1.set(Constants.indexer1Power);
-    pooper.set(ControlMode.PercentOutput , Constants.intakePower);
+    pooper.set(ControlMode.PercentOutput , Constants.pooperpower);
   }
+  
   public void purgeIntake() {
+    intakeMotor.set(Constants.intakepurgePower);
     // intakeCenter.set(-1.0);
-    pooper.set(ControlMode.PercentOutput , Constants.purgePower);
-    intakeMotor.set(Constants.purgePower);
-    indexer1.set(-1.0);
+    indexer1.set(Constants.indexer1purgePower);
+    pooper.set(ControlMode.PercentOutput , Constants.pooperpurgePower);
   }
+
   public void stopIntake() {
     intakeCenter.set(0);
     intakeMotor.set( 0);
