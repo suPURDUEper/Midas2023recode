@@ -20,7 +20,6 @@ import edu.wpi.first.wpilibj2.command.button.Trigger;
  */
 public class RobotContainer {
   // The robot's subsystems and commands are defined here...
-  private final ExampleSubsystem m_exampleSubsystem = new ExampleSubsystem();
   private final IntakeSubsystem m_IntakeSubsystem = new IntakeSubsystem();
   //private final drivetrainSubsystem m_drivetrainSubsystem = new drivetrainSubsystem();
 
